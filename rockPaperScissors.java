@@ -16,7 +16,7 @@ public class rockPaperScissors {
                 System.out.println("Please enter a valid response {YES-NO}");
                 playAgain =scanner.nextLine().toUpperCase();
             }
-                if(playAgain.equals("YES")){//Start Game
+                if(playAgain.equals("YES")){//Game Start
                     start();
                     System.out.println("Thanks For Playing");//Thanking Player for playing: End Game
                 } else {
@@ -42,7 +42,7 @@ public class rockPaperScissors {
         computerChoice = choices[random.nextInt(3)];//ok so random.nextInt(3) means give me the content from an index 0 to 3 but not including 3
         System.out.println("Computer chose:" + computerChoice);// therefore only assiging the content from index 0 1 2
 
-        if(playerChoice.equals(computerChoice)){//If a tie happens
+        if(playerChoice.equals(computerChoice)){//If a tie occurs
             System.out.println("You lose, AI Won");
         }
         else if(playerChoice.equals("ROCK") && computerChoice.equals("SCISSORS") //Checking who won
