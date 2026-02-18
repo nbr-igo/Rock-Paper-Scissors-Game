@@ -60,7 +60,7 @@ public class rockPaperScissors {
         System.out.println("Would you like to play Again? {YES-NO}");
         String playAgain =scanner.nextLine().toUpperCase();
 
-        while(!playAgain.equals("YES") && !playAgain.equals("NO")){//Validating inputs
+        while(!playAgain.equals("YES") && !playAgain.equals("NO")) { // Validating inputs
             System.out.println("Please enter a valid response {YES-NO}");
             playAgain =scanner.nextLine().toUpperCase();
         }
