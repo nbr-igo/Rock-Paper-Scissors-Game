@@ -2,12 +2,12 @@
 A fun and simple Rock Paper Scissors game built in Java!
 Developed in VS Code and tested in the Command Prompt — no GUI, just pure console fun.
 
-🎮 Features:
+### 🎮 Features:<br>
 
-✅ Asks the user if they want to play
-✅ Lets you rematch without restarting the game
-✅ Randomized computer choices for fair play
+✅ Asks the user if they want to play<br>
+✅ Lets you rematch without restarting the game<br>
+✅ Randomized computer choices for fair play<br>
 
-🧩 Future Improvements:
+### 🧩 Future Improvements:<br>
 
-✨ Implement score tracking and multi-round gameplay
+✨ Implement score tracking and multi-round gameplay<br>
